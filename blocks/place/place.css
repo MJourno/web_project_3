@@ -1,0 +1,12 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-rows: auto;
+  column-gap: 40px;
+  row-gap: 48px;
+  margin: 0px 0px 80px;
+  max-width: 1184px;
+}
+.place:last-of-type {
+  margin-bottom: 0px;
+}
