@@ -1,0 +1,12 @@
+.intro__list {
+  margin: 33px auto 0 0;
+  list-style: none;
+  max-width: 690px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  align-self: flex-start;
+  padding: 0px;
+
+}
