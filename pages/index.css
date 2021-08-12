@@ -1,3 +1,4 @@
+/*imports*/
 @import url(../vendor/normalize.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/body/__container/body__container.css);
@@ -38,3 +39,228 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__link-item/footer__link-item.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+/*media queries*/
+@media screen and (max-width:1024px) {
+  .body__container {
+    max-width: 1024px;
+    width: 100%;
+  }
+  .lead__title {
+    margin-top: 50px;
+  }
+  .lead__image {
+    max-width: 928px;
+    max-height: 580px;
+    margin-top: 56px;
+    }
+    .intro {
+      margin:92px auto 0px 48px;
+    }
+    .photo-grid {
+      grid-gap: 14px;
+    }
+    .photo-grid__item {
+      max-width: 300px;
+    }
+    .places {
+      margin-top: 92px;
+      max-width: 928px;
+    }
+    .place__url-heading {
+    margin-bottom: 12px;
+    }
+
+    .cover {
+      max-width: 1024px;
+      min-height: 640px;
+      margin: 92px 0px 0px;
+    }
+    .footer {
+      margin: 92px 48px 24px;
+    }
+  }
+
+@media screen and (max-width:768px) {
+  .header {
+    margin: 34px 24px 0;
+  }
+
+  .lead__image {
+    max-width: 768px;
+    max-height: 480px;
+    margin-top: 56px;
+  }
+  .lead__caption {
+    margin-left: 24px;
+  }
+  .intro {
+    max-width: 720px;
+    margin:88px auto 0px;
+  }
+  .intro__text {
+    max-width: 720px;
+  }
+  .intro__paragraph {
+    max-width: 720px;
+  }
+  .intro__list {
+    max-width: 720px;
+  }
+  .photo-grid {
+    margin: 88px 24px 0px;
+    gap: 16px;
+  }
+  .photo-grid__item {
+    max-width: 352px;
+  }
+  .places {
+    margin-top: 88px;
+    max-width: 720px;
+  }
+  .place {
+    margin-bottom: 72px;
+  }
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .place__url-heading {
+    line-height: 12px;
+  }
+  .place__paragraph{
+    font-size: 16px;
+    line-height: 163%
+  }
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
+    margin: 89px 0px 0px;
+  }
+  .footer {
+    margin: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .header {
+    margin: 20px 16px 0;
+  }
+  .lead__title {
+    font-size: 40px;
+    line-height: 110%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 125%;
+    margin: 16px 16px 0;
+    width: 288px;
+  }
+  .lead__caption {
+    margin-left: 16px;
+  }
+  .lead__image {
+    max-width: 320px;
+    max-height: 200px;
+    margin-top: 40px;
+  }
+  .logo {
+    width: 156px;
+    height: 36px;
+  }
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .intro {
+    max-width: 288px;
+    margin:64px auto 0px;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 109%;
+  }
+  .intro__text {
+    max-width: 288px;
+    line-height: 30px;
+  }
+  .intro__paragraph {
+    max-width: 288px;
+  }
+  .intro__list {
+    max-width: 288px;
+    margin-top: 34px;
+  }
+  .photo-grid {
+    margin: 64px 16px 0px;
+    gap: 12px;
+  }
+  .photo-grid__item {
+    max-width: 288px;
+  }
+  .places {
+    margin: 64px 0px 0px;
+    max-width: 320px;
+  }
+  .place {
+    margin-bottom: 48px;
+    row-gap: 30px;
+  }
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0px 16px;
+  }
+  .place__website {
+    margin: 0px 16px;
+  }
+  .place__paragraphs {
+    margin: 0px;
+
+  }
+  .place__paragraph {
+    margin: 0px 16px 25px;
+    width: 288px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+    margin: 64px 0px 0px;
+  }
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .cover__subtitle {
+    margin: 16px 16px 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .footer {
+    flex-direction:column;
+    margin: 64px 139px 24px 16px;
+    align-items:flex-start;
+  }
+  .footer__link {
+    flex-direction: column;
+  }
+  .footer__link-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .footer__copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 48px;
+  }
+}
+
+

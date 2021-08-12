@@ -1,11 +1,12 @@
 .place__paragraph {
   margin: 0px 0px 25px;
+  padding: 0px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 29px;
   text-align: left;
-  min-width: 484px;
+  max-width: 484px;
 }
 .place__paragraph:last-of-type {
   margin-bottom: 0px;

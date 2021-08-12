@@ -1,7 +1,7 @@
 .body {
   min-width: 320px;
   background-color: #2A2C2F;
-  color: #FFFFFF;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,3 +14,4 @@
   -moz-text-size-adjust: 100%;
   text-rendering:optimizeLegibility;
 }
+
