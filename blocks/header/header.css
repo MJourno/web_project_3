@@ -6,3 +6,13 @@
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width:768px) {
+  .header {
+    margin: 34px 24px 0;
+  }
+}
+@media screen and (max-width:320px) {
+  .header {
+    margin: 20px 16px 0;
+  }
+}

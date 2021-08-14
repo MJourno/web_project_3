@@ -10,3 +10,14 @@
 .place:last-of-type {
   margin-bottom: 0px;
 }
+@media screen and (max-width:768px) {
+  .place {
+    margin-bottom: 72px;
+  }
+}
+@media screen and (max-width:320px) {
+  .place {
+    margin-bottom: 48px;
+    row-gap: 30px;
+  }
+}

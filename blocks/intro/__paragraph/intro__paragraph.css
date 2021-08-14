@@ -6,3 +6,13 @@
   font-size: 16px;
   line-height: 26px;
 }
+@media screen and (max-width:768px) {
+  .intro__paragraph {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width:320px) {
+  .intro__paragraph {
+    max-width: 288px;
+  }
+}

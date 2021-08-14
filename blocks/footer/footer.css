@@ -6,3 +6,20 @@
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width:1024px) {
+  .footer {
+    margin: 92px 48px 24px;
+  }
+}
+@media screen and (max-width:768px) {
+  .footer {
+    margin: 88px 24px 24px;
+  }
+}
+@media screen and (max-width:320px) {
+  .footer {
+    flex-direction:column;
+    margin: 64px 139px 24px 16px;
+    align-items:flex-start;
+  }
+}
