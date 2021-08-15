@@ -6,5 +6,9 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
-  cursor: pointer;
+  transition: 0.1s;
 }
+.place__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  }

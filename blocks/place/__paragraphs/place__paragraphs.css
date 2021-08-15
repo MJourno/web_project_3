@@ -2,8 +2,4 @@
   margin: 0px;
   padding: 0px;
 }
-@media screen and (max-width:320px) {
-  .place__paragraphs {
-    margin: 0px;
-  }
-}
+

@@ -10,9 +10,15 @@
 .place:last-of-type {
   margin-bottom: 0px;
 }
+@media screen and (max-width:1024px) {
+  .place {
+    column-gap: 32px;
+  }
+}
 @media screen and (max-width:768px) {
   .place {
     margin-bottom: 72px;
+    column-gap: 28px;
   }
 }
 @media screen and (max-width:320px) {

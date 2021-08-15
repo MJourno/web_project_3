@@ -5,21 +5,18 @@
 }
 @media screen and (max-width:1024px) {
   .lead__image {
-    max-width: 928px;
+    width:100%;
     max-height: 580px;
     margin-top: 56px;
     }
   }
   @media screen and (max-width:768px) {
     .lead__image {
-      max-width: 768px;
       max-height: 480px;
-      margin-top: 56px;
     }
   }
   @media screen and (max-width:320px) {
     .lead__image {
-      max-width: 320px;
       max-height: 200px;
       margin-top: 40px;
     }
