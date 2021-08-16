@@ -9,6 +9,7 @@
 
 .cover__overlay:hover {
   background: rgba(42, 44, 47, 0.8);
+  cursor: pointer;
 }
 @media screen and (max-width:1024px) {
   .cover__overlay {
